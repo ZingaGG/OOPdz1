@@ -13,6 +13,6 @@ public class HotMachine implements VendingMachine {
                 return (Coffee)hotDrink;
             }
         }
-        throw new IllegalStateException(String.format("Продукт c названием %s не найден.", name));
+        throw new IllegalStateException(String.format("Продукт c такими параметрами не найден!"));
     }
 }
